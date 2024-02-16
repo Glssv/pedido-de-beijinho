@@ -4,11 +4,6 @@ body {
     font-family: sans-serif;
     background-color: #f7ceef;
 }
-img{
-    width: 300px;
-    height: 300px;
-    position: relative;
-}
 .pedido {
     padding: 10px;
     text-align: center;
@@ -23,21 +18,25 @@ img{
     width: 60px;
     border-radius: 5px;
     margin: 10px;
+    letter-spacing: 1px;
 } 
+.primeiro{
+    margin-top: 70px;
+}
 footer {
     color: #4f0742;
     text-align: center;
     font-size: 17px;
-    padding: 15px;
+    padding: 30px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 footer > p > a{
-    color: #973A0B;
+    color: rgb(123, 4, 146);
     font-weight: bolder;
     text-decoration: none;
   }
   footer a:hover{
-    color: black;
+    color: rgb(13, 79, 57);
   }
